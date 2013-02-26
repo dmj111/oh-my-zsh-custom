@@ -181,10 +181,10 @@ fi
 
 # alias cd="venv_cd"
 
-# [[ -f $(which keychain 2> /dev/null) ]] && \
-#     keychain --nogui --quiet id_rsa
-# [[ -f $HOME/.keychain/$HOSTNAME-sh ]] && \
-#     source $HOME/.keychain/$HOSTNAME-sh
+[[ -f $(which keychain 2> /dev/null) ]] && \
+    keychain --nogui --quiet id_rsa
+[[ -f $HOME/.keychain/$HOSTNAME-sh ]] && \
+    source $HOME/.keychain/$HOSTNAME-sh
 
 
 
