@@ -151,7 +151,7 @@ bindkey '\C-x\C-w' kill-region
 # typeset -U my_users 
 
 # Load private files...
-[[ -r ~/config/local/.zshrc ]] && source ~/config/local/.zshrc 
+# [[ -r ~/config/local/.zshrc ]] && source ~/config/local/.zshrc 
 [[ -r ~/.zshrc.private ]] && source ~/.zshrc.private
 
 
