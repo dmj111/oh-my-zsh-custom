@@ -1,6 +1,4 @@
-
 # load up any local files
-echo "hello"
 
 if [ -d ${ZSH_CUSTOM}/local ]; then 
     for config_file (${ZSH_CUSTOM}/local/*.zsh(N)); do
