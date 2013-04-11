@@ -31,7 +31,8 @@ PS1='%B** [%(0t.Ding!.%T)] [%n@%m ] **
 %1v%U%2v%u %f$%b '
 
 PS1='%~ %1v%U%2v%u %f$%b '
-PS1=' %~ %U%2v%u %f$%b '
+PS1=' %~
+%U%2v%u %f$%b '
 
 # This message is for emacs...
 # Local Variables:
