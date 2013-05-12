@@ -1,0 +1,25 @@
+
+# Make sure that path does not keep duplicates. 
+typeset -U path
+
+export -TU LD_LIBRARY_PATH ld_library_path
+
+# This one is for the mac, but does it hurt to do it everywhere?
+export -TU DYLD_LIBRARY_PATH dyld_library_path 
+
+# Add some paths that I almost always use.
+path=(~/bin ~/config/bin $path)
+
+# Here is how to export a variable and tie it to a unique'd array.
+export -TU FOOPATH foopath
+
+# Setup to use emacsclient as the editor.  This requires a
+# "M-x server-start" from a running emacs session.
+
+EDITOR="emacsclient -t"
+ALTERNATE_EDITOR="vi"
+VISUAL="emacsclient -t"
+
+local_env=$HOME/.oh-my-zsh/custom/local/zshenv
+[[ -r $local_env ]] && source $local_env
+

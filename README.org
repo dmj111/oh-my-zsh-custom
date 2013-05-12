@@ -1,0 +1,24 @@
+#+title: Oh My Zsh Readme
+#+date: [2013-05-12 Sun]
+#+startup: hidestars
+#+options: toc: 2
+
+This is my =custom= folder for using with [[https://github.com/robbyrussell/oh-my-zsh][oh-my-zsh]].
+
+Short directions:
+
+  1) Install oh-my-zsh
+  2) delete the =custom= folder in oh-my-zsh, and check this folder
+     out in its place.  
+  3) Local files can be put in =local= here.  It is ignored by git.
+  4) Run =config/setup.sh= (and hope its right!)
+     
+     This adds .zshrc and .zshenv to =$HOME=, which is useful for
+     making stuff run correctly.  These files live in the =config=
+     directory.  A local =.zshenv= can be added in the local folder,
+     and it will be loaded by the main =.zshenv= file.
+
+
+
+
+
